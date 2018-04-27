@@ -1,5 +1,5 @@
 # Sweet Spot Diabetes App
-by Ed Monterrubio</bnr>
+by Ed Monterrubio</br>
 March 6, 2018
 
 <a href="https://framer.cloud/kcoOh" target="_blank">View Prototype</a>
@@ -35,11 +35,11 @@ The app needs to accurately calculate and display the <strong><i>amount of insul
 <strong>insulinCorrection</strong> = (bgReading - bgTarget) / sensitivityFactor
 
 ##### INSULIN ON BOARD:
-<strong>insulinPerHr</strong> = lastBolusAmount / 3
-<i>// 3 is the number of hours it takes insulin to run it’s course</i>
-<strong>timeElapse</strong> = timeCurrent - timeLastBolus
-<i>// if timeElapse is >= 3 then insulinOnBoard = 0</i>
-<strong>timeLeft</strong> = 3 - timeElapse
+<strong>insulinPerHr</strong> = lastBolusAmount / 3</br>
+<i>// 3 is the number of hours it takes insulin to run it’s course</i></br>
+<strong>timeElapse</strong> = timeCurrent - timeLastBolus</br>
+<i>// if timeElapse is >= 3 then insulinOnBoard = 0</i></br>
+<strong>timeLeft</strong> = 3 - timeElapse</br>
 <strong>insulinOnBoard</strong> = insulinPerHr * timeLeft
 
 ##### TOTAL INSULIN TO TAKE:
@@ -49,19 +49,19 @@ The app needs to accurately calculate and display the <strong><i>amount of insul
 These are acceptable fixed value ranges provided by the endocrinologist that will change only when the doctor approves.
 
 ##### Morning Time Block
-12:00 am - 5:59 am
-carbFactor = 10
-sensitivityFactor = 50
+12:00 am - 5:59 am</br>
+carbFactor = 10</br>
+sensitivityFactor = 50</br>
 bgTarget = 140
 
 ##### Daytime Time Block
-6:00 am - 7:59 pm
-carbFactor = 8
-sensitivityFactor = 45
+6:00 am - 7:59 pm</br>
+carbFactor = 8</br>
+sensitivityFactor = 45</br>
 bgTarget = 100
 
 ##### Nighttime Time Block
-8:00 pm - 11:59 pm
-carbFactor = 10
-sensitivityFactor = 50
+8:00 pm - 11:59 pm</br>
+carbFactor = 10</br>
+sensitivityFactor = 50</br>
 bgTarget = 140
