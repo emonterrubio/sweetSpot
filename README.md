@@ -1,5 +1,5 @@
 # Sweet Spot Diabetes App
-by Ed Monterrubio
+by Ed Monterrubio</bnr>
 March 6, 2018
 
 <a href="https://framer.cloud/kcoOh" target="_blank">View Prototype</a>
@@ -48,19 +48,19 @@ The app needs to accurately calculate and display the <strong><i>amount of insul
 ## Time Blocks:
 These are acceptable fixed value ranges provided by the endocrinologist that will change only when the doctor approves.
 
-#####Morning Time Block
+##### Morning Time Block
 12:00 am - 5:59 am
 carbFactor = 10
 sensitivityFactor = 50
 bgTarget = 140
 
-#####Daytime Time Block
+##### Daytime Time Block
 6:00 am - 7:59 pm
 carbFactor = 8
 sensitivityFactor = 45
 bgTarget = 100
 
-#####Nighttime Time Block
+##### Nighttime Time Block
 8:00 pm - 11:59 pm
 carbFactor = 10
 sensitivityFactor = 50
