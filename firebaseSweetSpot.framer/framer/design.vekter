@@ -1,11 +1,11 @@
 {
+  "version" : 21,
   "root" : {
+    "id" : "SmSW_lW7b",
     "__class" : "CanvasNode",
+    "parentid" : null,
     "children" : [
 
-    ],
-    "id" : "SmSW_lW7b",
-    "parentid" : null
-  },
-  "version" : 21
+    ]
+  }
 }

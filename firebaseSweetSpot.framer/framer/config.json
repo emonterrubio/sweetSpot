@@ -7,7 +7,7 @@
   "fullScreen" : false,
   "cachedDeviceWidth" : 414,
   "deviceType" : "apple-iphone-8-plus-space-gray",
-  "sharedPrototype" : 1,
+  "sharedPrototype" : true,
   "propertyPanelToggleStates" : {
 
   },
@@ -16,13 +16,17 @@
   "selectedHand" : "",
   "showBezel" : 0,
   "foldedCodeRanges" : [
-    "{326, 438}",
-    "{764, 336}",
-    "{1100, 1143}",
-    "{2243, 229}",
-    "{2472, 857}",
-    "{3329, 219}",
-    "{9346, 3062}"
+    "{0, 192}",
+    "{192, 140}",
+    "{332, 186}",
+    "{518, 122}",
+    "{640, 390}",
+    "{1030, 374}",
+    "{1404, 1176}",
+    "{2580, 265}",
+    "{2845, 883}",
+    "{3728, 934}",
+    "{11797, 2615}"
   ],
   "deviceScale" : "fit"
 }
