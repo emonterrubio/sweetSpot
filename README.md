@@ -1,4 +1,4 @@
-# Sweet Spot Diabetes App
+# Sweet Spot Diabetes Mobile
 by Ed Monterrubio</br>
 March 6, 2018
 
